@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="navstyle.css">
+
+    <link rel="stylesheet" href="btnstyle.css">
+
+    <!-- Font awesome cdn -->
+
+    <script src="https://kit.fontawesome.com/2760c90596.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+<body>
+
+    <header>
+
+        <div class="header custom-border">
+
+            <div class="logo">
+
+                <img src="images/check.jpeg" id="heading-logo" alt="unable to load image">
+
+            </div>
+
+
+            <div class="jumbotron">
+
+                <h1>Heading</h1>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- <nav class="custom-border">
+
+        <ul class="nav-ul">
+
+            <li class="nav-li"><a href="#">Home</a></li>
+
+            <li class="nav-li">
+
+                <div class="dropdown">
+
+                    <span>More</span>
+
+                    <div class="dropdown-content">
+
+                        <ul>
+
+                            <li><a href="#">Link 1</a></li>
+
+                            <li><a href="#">Link 2</a></li>
+
+                            <li><a href="#">Link 3</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </li>
+
+            <li class="nav-li"><a href="#">Contact</a></li>
+
+            <li class="nav-li"><a href="#">About</a></li>
+
+        </ul>
+
+    </nav> -->
+
+    <div class="nav">
+
+        <ul>
+
+            <li class="home"><a href="#">Home</a></li>
+
+            <li class="tutorials"><a href="#">Tutorials</a></li>
+
+            <li class="about"><a href="#">About</a></li>
+
+            <li class="news"><div class="dropdown">
+
+                    <span style="color: white;">More</span>
+
+                    <div class="dropdown-content">
+
+                        <ul>
+
+                            <li><a href="#">Link 1</a></li>
+
+                            <li><a href="#">Link 2</a></li>
+
+                            <li><a href="#">Link 3</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div></li>
+
+            <li class="contact"><a href="#">Contact</a></li>
+
+        </ul>
+
+    </div>
+
+    <div class="main-container custom-border">
+
+        <div class="aside-section custom-border">
+
+            <section class="notice custom-border no-background">
+
+                <h1>Notice</h1>
+
+                <button class="btn" onclick="hideBodyBackground()">Click me!</button>
+
+            </section>
+
+            <section class="update custom-border">
+
+                <h1>Updates</h1>
+
+                <button class="btn" onclick="hideNoticeBackground(this)">Click me!</button>
+
+            </section>
+
+
+
+        </div>
+
+        <div class="body custom-border no-background" id="body">
+ 
+           <h3>Body</h3>
+
+        </div>
+ 
+   </div>
+
+    <footer>
+
+        <div class="footer custom-border">
+
+            <!-- <p>Social media links</p> -->
+
+            <div class="social-icon custom-border">
+
+                <i class="fab fa-linkedin"></i>
+
+                <i class="fab fa-facebook"></i>
+
+                <i class="fab fa-github-square"></i>
+
+            </div>
+
+            <div class="contacts custom-border">
+
+               <p>Email: <span>abcd@xyz.pqr</span></p>
+
+               <p>Phone: <span>+911234567890</span></p>
+
+                <p>Contacts</p>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+<script src="script.js">
+</script>
+
+</html>
